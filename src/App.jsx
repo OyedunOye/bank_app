@@ -9,7 +9,7 @@ const App = () => (
           <Navbar />
         </div>
       </div>
-
+      {/*note the pattern below for creating dynamic strings for classnames. '{``} */}
       <div className={`bg-primary ${styles.flexStart}`}>
         <div className={`${styles.boxWidth}`}>
           <Hero />

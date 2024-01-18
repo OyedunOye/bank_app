@@ -9,5 +9,7 @@ import Clients from './Clients'
 import CTA from './CTA'
 import Footer from './Footer'
 
+//remember that importing all default component modules and exporting them as non-default exports save space
+//lines when importing at the final destination because a single line of non-default imports will be thereby possible.
 
 export {Navbar, Hero, Stats, Business, Billing, CardDeal, Testimonials, Clients, CTA, Footer }

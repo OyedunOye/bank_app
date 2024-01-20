@@ -15,7 +15,9 @@ const Testimonials = () => (
     </div>
 
     <div className="flex flex-wrap sm:justify-start justify-center w-full feedback-container relative z-[1]">
+      {/* spread operator (...) below. Used in variable arrays where more than one values are expected */}
       {feedback.map((card)=> (
+        
         <FeedbackCard key={card.id} {...card} />
       ))}
     </div>
